@@ -2,7 +2,7 @@
 
 https://gitter.im/scalameta/scalameta?at=5edeb50e9da05a060a5d567b
 
-I used @olafurpg's scalafix code-generation [project](https://github.com/olafurpg/scalafix-codegen). Suppose I'm interested in the RHS of method `shapeless.HList.unsafeGet` from Shapeless library. I put its sources to `in`. I added Shapeless dependencies to `build.sbt` (they are `scala-reflect` and `scala-compiler`). (There are also auto-generated sources in Shapeless so I put them to `in` too.) I created custom rewriting rule and put it to rules.
+I used @olafurpg's scalafix code-generation [project](https://github.com/olafurpg/scalafix-codegen). Suppose I'm interested in the RHS of method `shapeless.HList.unsafeGet` from Shapeless library. I put its sources to `in`. I added Shapeless dependencies to `build.sbt` (they are `scala-reflect` and `scala-compiler`). (There are also auto-generated sources in Shapeless so I put them to `in` too.) I created custom rewriting rule and put it to `rules`.
 
 ```scala
 import scalafix.v1._
