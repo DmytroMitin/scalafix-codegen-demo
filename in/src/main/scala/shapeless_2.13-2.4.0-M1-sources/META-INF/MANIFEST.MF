@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Specification-Vendor: com.chuusai
+Specification-Title: core
+Specification-Version: 2.4.0-M1
+
